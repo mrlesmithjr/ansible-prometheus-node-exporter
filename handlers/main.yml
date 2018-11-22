@@ -11,4 +11,3 @@
     name: "node_exporter"
     state: "restarted"
   become: true
-  when: "'node_exporter' in services"
