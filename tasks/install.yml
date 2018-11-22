@@ -22,5 +22,6 @@
     dest: "{{ prometheus_node_exporter_install_dir }}/node_exporter"
     state: "link"
     owner: "{{ prometheus_node_exporter_user_info['user'] }}"
-      group: "{{ prometheus_node_exporter_user_info['group'] }}"
+    group: "{{ prometheus_node_exporter_user_info['group'] }}"
   become: true
+  notify: restart node_exporter
