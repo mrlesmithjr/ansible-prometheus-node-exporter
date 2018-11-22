@@ -1,7 +1,7 @@
 ---
 # tasks file for ansible-prometheus-node-exporter
-- include: install.yml
-
 - include: user.yml
+
+- include: install.yml
 
 - include: service.yml
