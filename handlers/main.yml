@@ -10,4 +10,5 @@
   service:
     name: "node_exporter"
     state: "restarted"
+    enabled: true
   become: true
