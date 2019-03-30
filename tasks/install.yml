@@ -20,7 +20,7 @@
   file:
     src: "{{ prometheus_node_exporter_install_dir }}/node_exporter-{{ prometheus_node_exporter_version }}.linux-amd64"
     dest: "{{ prometheus_node_exporter_install_dir }}/node_exporter"
-    state: "link"
+    state: link
     owner: "{{ prometheus_node_exporter_user_info['user'] }}"
     group: "{{ prometheus_node_exporter_user_info['group'] }}"
   become: true
