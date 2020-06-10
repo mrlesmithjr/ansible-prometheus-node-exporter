@@ -1,9 +1,10 @@
+---
 galaxy_info:
   author: Larry Smith Jr.
-  description: An [Ansible] role to install/configure [Prometheus Node Exporter]
+  description: Ansible role to install/configure Prometheus Node Exporter
   license: MIT
+  min_ansible_version: 2.8
 
-  min_ansible_version: 1.2
   platforms:
     - name: Debian
       versions:
