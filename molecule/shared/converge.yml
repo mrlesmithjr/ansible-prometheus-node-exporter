@@ -3,5 +3,5 @@
   hosts: all
   tasks:
     - name: Include ansible-prometheus-node-exporter
-      include_role:
-        name: ansible-prometheus-node-exporter
+      ansible.builtin.include_role:
+        name: mrlesmithjr.prometheus_node_exporter
